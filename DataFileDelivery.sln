@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2DE5AE35-1B06-4E01-8002-5103339EDFB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendor", "Vendor", "{A4796D2E-C4A1-4C50-A92F-536A55CF220D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouSendItAPI", "lib\HighTail\YouSendItAPI.csproj", "{C842E0BE-53FA-44E5-A40D-FCCA83BFD402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F3E12879-FF60-497F-BF0D-1C4F5D9BCB63}"
+	ProjectSection(SolutionItems) = preProject
+		src\Tests\Tests.config = src\Tests\Tests.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hems.DataFileDelivery.Test", "src\Tests\hems.DataFileDelivery.Test\hems.DataFileDelivery.Test.csproj", "{C2993C98-DDD6-4713-A6DF-B62DD35A215E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hems.HighTail", "src\hems.HighTail\hems.HighTail.csproj", "{87501735-C699-4D73-93EB-BA437716078E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12097112-B123-4590-9545-B83F9A205C18}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C842E0BE-53FA-44E5-A40D-FCCA83BFD402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C842E0BE-53FA-44E5-A40D-FCCA83BFD402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C842E0BE-53FA-44E5-A40D-FCCA83BFD402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C842E0BE-53FA-44E5-A40D-FCCA83BFD402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2993C98-DDD6-4713-A6DF-B62DD35A215E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2993C98-DDD6-4713-A6DF-B62DD35A215E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2993C98-DDD6-4713-A6DF-B62DD35A215E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2993C98-DDD6-4713-A6DF-B62DD35A215E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87501735-C699-4D73-93EB-BA437716078E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87501735-C699-4D73-93EB-BA437716078E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87501735-C699-4D73-93EB-BA437716078E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87501735-C699-4D73-93EB-BA437716078E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87501735-C699-4D73-93EB-BA437716078E} = {2DE5AE35-1B06-4E01-8002-5103339EDFB0}
+		{C842E0BE-53FA-44E5-A40D-FCCA83BFD402} = {A4796D2E-C4A1-4C50-A92F-536A55CF220D}
+		{C2993C98-DDD6-4713-A6DF-B62DD35A215E} = {F3E12879-FF60-497F-BF0D-1C4F5D9BCB63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal

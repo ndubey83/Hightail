@@ -1,0 +1,6 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Default" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="hems.DataFileDelivery.Test\bin\Debug\hems.DataFileDelivery.Test.dll" />
+  </Config>
+</NUnitProject>
